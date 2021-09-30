@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0053)file:///C:/Users/Student/Downloads/jsbin.walis.1.html -->
+<!-- saved from url=(0054)file:///C:/Users/Student/Downloads/jsbin.zukara.1.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="robots" content="noindex">
 
 
@@ -15,9 +15,7 @@
   <script src="./index_files/runtime.min.js.下載"></script>
   <script src="./index_files/BitLedMatrix-blockly.js.下載"></script>
   <script src="./index_files/BitLedMatrix.js.下載"></script>
-  <script src="./index_files/BitThermistor-blockly.js.下載"></script>
-  <script src="./index_files/BitThermistor.js.下載"></script>
-<link rel="stylesheet" href="./index_files/bootstrap.min.css">
+ <link rel="stylesheet" href="./index_files/bootstrap.min.css">
   <script src="./index_files/jquery.min.js(1).下載"></script>
   <script src="./index_files/popper.min.js.下載"></script>
   <script src="./index_files/bootstrap.min.js.下載"></script>
@@ -36,12 +34,11 @@ button:hover {
 </head>
 
 <body>
-  <h1 class="alert alert-success">ANDY的智慧宅</h1><br>
+ <h1 class="alert alert-success">andy智慧宅</h1><br>
   <div><button id="demo-area-05-btn1" class="btn btn-primary">客廳燈</button>
     <button id="demo-area-05-btn2" class="btn btn-warning">廁所燈</button>
-    </div>
+    
 <script id="jsbin-javascript">
-var thermistor;
 var matrix;
 
 
@@ -56,11 +53,5 @@ boardReady({board: 'Bit', device: 'PgysDPSXmimWh8vi4K', transport: 'mqtt'}, func
   });
 });
 
-thermistor = getThermistor(board, 6);
-thermistor.measure(function (val) {
-  thermistor.detectedVal = val;
-  document.getElementById("demo-area-01-show").innerHTML = thermistor.detectedVal;
-});
-
 </script>
-</body></html>
+</div></body></html>
